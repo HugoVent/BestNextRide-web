@@ -1,0 +1,13 @@
+{
+  "title": "Best Next Ride 🎢",
+  "text":"Suivez les temps d'attente des attractions Disney en temps réel.",
+  "button": [
+    {
+      "title": "Explore"
+    },
+    {
+      "title": "Learn more",
+      "color": "#fff"
+    }
+  ]
+}

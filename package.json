@@ -1,0 +1,47 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/node": "^15.14.9",
+    "@types/react": "^17.0.68",
+    "@types/react-dom": "^17.0.21",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/styled-components": "^5.1.34",
+    "antd": "^4.24.14",
+    "i18next": "^19.9.2",
+    "i18next-browser-languagedetector": "^6.1.8",
+    "i18next-xhr-backend": "^3.2.2",
+    "polished": "^4.3.1",
+    "react": "^18.2.0",
+    "react-awesome-reveal": "^3.8.1",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^11.18.6",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "5.0.1",
+    "recharts": "^2.15.1",
+    "styled-components": "^5.3.11",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "start": "GENERATE_SOURCEMAP=false react-scripts start --host 0.0.0.0",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

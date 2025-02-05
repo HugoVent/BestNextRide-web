@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Fond circulaire -->
+  <circle cx="100" cy="100" r="90" fill="#387eb2" />
+  <circle cx="100" cy="100" r="85" fill="white" />
+
+  <!-- Montagnes russes stylisées -->
+  <path d="M40 120 Q60 80 80 110 Q100 140 120 90 Q140 40 160 110"
+        fill="none"
+        stroke="#439ee1"
+        stroke-width="8"
+        stroke-linecap="round"/>
+
+  <!-- Éléments de chronomètre -->
+  <circle cx="100" cy="100" r="70" fill="none" stroke="#387eb2" stroke-width="4"/>
+  <line x1="100" y1="100" x2="100" y2="50" stroke="#ffabd2" stroke-width="4" stroke-linecap="round">
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 100 100"
+      to="360 100 100"
+      dur="10"
+      repeatCount="indefinite"/>
+  </line>
+
+  <!-- Petits points décoratifs -->
+
+  <!-- Point central -->
+  <circle cx="100" cy="100" r="6" fill="#ffabd2"/>
+</svg>
