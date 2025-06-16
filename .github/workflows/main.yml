@@ -1,33 +1,11 @@
 name: Create AWS Account
+
 on:
   workflow_dispatch:
-    inputs:
-      email:
-        description: 'Email for the new AWS account'
-        required: true
-        default: 'hugo.venturoso+lizyX@necko.tech'
-      account_name:
-        description: 'Name for the new AWS account'
-        required: true
-        default: 'Lizy - Product Dev Light X'
 
 jobs:
   create-aws-account:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@v4
-        with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: us-east-1
-
-      - name: Create AWS Organization Account
-        run: |
-          aws organizations create-account \
-            --email "${{ github.event.inputs.email }}" \
-            --account-name "${{ github.event.inputs.account_name }}"
+      - name: Test step
+        run: echo "Hello World"
